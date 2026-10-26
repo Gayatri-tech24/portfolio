@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Gayatri Arvind Gundad: projects in machine learning, computer vision and reinforcement learning.">
+    <title>Gayatri Arvind Gundad | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Passero+One&display=swap" rel="stylesheet">
+</head>
+<body class="electrolize-regular">
+    <main>
+
+        <!-- HERO -->
+        <section class="portfolio">
+            <h1 class="big">PORTFOLIO</h1>
+            <p>GAYATRI ARVIND GUNDAD</p>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="container">
+            <div class="image-container">
+                <img src="image.png" alt="Photo of Gayatri" class="profile-image">
+            </div>
+            <div class="text-container">
+                <p>
+                    Hi! I’m Gayatri, a Computer Science Engineering student who enjoys building things, solving problems, and learning how technology can be used to create useful solutions.<br><br>
+                    I’m working towards becoming an <strong>AI &amp; Java Full Stack Developer</strong>, with a growing interest in combining AI with software development. I recently completed a remote <strong>Machine Learning internship at Enerzcloud Innovations</strong>.<br><br>
+                    I’ve worked with <strong>Java, Python, C++, SQL, JavaScript, HTML, CSS, Git, GitHub, Scikit-learn, XGBoost, OpenCV and MediaPipe</strong>, and I’m currently focusing on improving my Java Full Stack and DSA skills.<br><br>
+                    Along the way, I’ve built an <strong>AI-based Fraud Detection System, a Loan Approval classifier, a Customer Churn model, Computer Vision projects</strong> and a <strong>reinforcement learning agent that lands a spacecraft</strong>. I’ve also participated in <strong>Smart India Hackathon 2025</strong> and the <strong>Razorpay Buildathon 2026</strong>.<br><br>
+                    I’m always curious to learn something new, experiment with ideas, and turn what I learn into projects. When I’m not coding, you’ll probably find me watching anime or exploring something new in tech.
+                </p>
+            </div>
+        </section>
+
+        <!-- RESUME LINK -->
+        <div class="resume-bar">
+            <a class="resume" href="Gayatri_Gundad_ML_Resume_v3.pdf" target="_blank" rel="noopener">RESUME</a>
+        </div>
+
+        <!-- SKILLS -->
+        <section class="portfolio" id="skills">
+            <h1>MY SKILLS</h1>
+            <ul class="tech-stack-container">
+                <li class="box2">Python</li>
+                <li class="box2">Machine Learning</li>
+                <li class="box2">Scikit-learn</li>
+                <li class="box2">XGBoost</li>
+                <li class="box2">Reinforcement Learning (PPO)</li>
+                <li class="box2">OpenCV</li>
+                <li class="box2">MediaPipe</li>
+                <li class="box2">Streamlit</li>
+                <li class="box2">SQL</li>
+                <li class="box2">Java</li>
+                <li class="box2">Spring Boot</li>
+                <li class="box2">REST APIs</li>
+                <li class="box2">JavaScript</li>
+                <li class="box2">HTML &amp; CSS</li>
+                <li class="box2">React.js</li>
+                <li class="box2">Git &amp; GitHub</li>
+                <li class="box2">Data Structures &amp; Algorithms</li>
+                <li class="box2">Object-Oriented Programming (OOP)</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="portfolio" id="projects">
+            <h1>PROJECTS</h1>
+            <div class="flex-box">
+
+                <article class="box">
+                    <h3>Lunar Lander RL Agent</h3>
+                    <p class="tags">Reinforcement Learning | PPO | Stable-Baselines3</p>
+                    <ul>
+                        <li>Trained a PPO agent to land a spacecraft in Gymnasium’s LunarLander-v3 using 16 parallel environments.</li>
+                        <li>Benchmarked it against a random-action baseline and tested custom reward shaping, evaluating on the original reward.</li>
+                        <li>Tracked learning curves and recorded landing videos.</li>
+                    </ul>
+                    <a href="https://github.com/Gayatri-tech24/Lunar-Lander" target="_blank" rel="noopener">View on GitHub</a>
+                </article>
+
+                <article class="box">
+                    <h3>AI Risk Manager: Fraud Detection</h3>
+                    <p class="tags">Random Forest | SHAP | Streamlit</p>
+                    <ul>
+                        <li>Built an end-to-end fraud detection pipeline on highly imbalanced transaction data with stratified cross-validation.</li>
+                        <li>Tuned the decision threshold, raising fraud recall from 62.8% to 99.2% (F1 95.6%).</li>
+                        <li>Added SHAP explainability and deployed an interactive Streamlit app.</li>
+                    </ul>
+                    <a href="https://github.com/Gayatri-tech24/ai-risk-manager-fraud-detector" target="_blank" rel="noopener">View on GitHub</a>
+                </article>
+
+                <article class="box">
+                    <h3>CreditWise Loan Approval System</h3>
+                    <p class="tags">Logistic Regression | KNN | Naive Bayes</p>
+                    <ul>
+                        <li>Built a loan approval classifier on 1,000 records, with imputation, encoding and scaling.</li>
+                        <li>EDA found Credit Score and DTI Ratio to be the top predictors.</li>
+                        <li>Logistic Regression performed best: 88.5% accuracy, 85.2% precision.</li>
+                    </ul>
+                    <a href="https://github.com/Gayatri-tech24/Credit-Wise-Loan-Approval-System" target="_blank" rel="noopener">View on GitHub</a>
+                </article>
+
+                <article class="box">
+                    <h3>Customer Churn Prediction</h3>
+                    <p class="tags">XGBoost | Random Forest | EDA</p>
+                    <ul>
+                        <li>Cleaned and analysed a 100K-record telecom churn dataset.</li>
+                        <li>Month-to-month customers churned at 46.5% vs about 16.7% on 1-2 year contracts.</li>
+                        <li>XGBoost performed best: ROC-AUC 0.81, F1 0.60.</li>
+                    </ul>
+                    <a href="https://www.kaggle.com/code/gayatrigundad/customer-churn" target="_blank" rel="noopener">View on Kaggle</a>
+                </article>
+
+                <article class="box">
+                    <h3>Computer Vision Projects</h3>
+                    <p class="tags">OpenCV | MediaPipe</p>
+                    <ul>
+                        <li>Real-time hand gesture recognition using 21 MediaPipe hand landmarks (fist, thumbs-up, pointing, peace sign, finger count).</li>
+                        <li>Automated coin counter using OpenCV thresholding and contour detection.</li>
+                    </ul>
+                    <a href="https://github.com/Gayatri-tech24" target="_blank" rel="noopener">View on GitHub</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- WHY HIRE ME -->
+        <section class="portfolio">
+            <h1>Why should you hire me?</h1>
+            <ul class="why-list">
+                <li><strong>I turn problems into working solutions:</strong> I break technical problems down, test solutions, and iterate until I find what works, even with time, technical, or project constraints.</li>
+                <li><strong>I take ownership of teams and outcomes:</strong> I have led multiple hackathons and college project teams, coordinating people, dividing work, and keeping projects moving toward the final deliverable.</li>
+                <li><strong>I learn and adapt quickly:</strong> My 9.20 CGPA, experience across Java, Python, AI/ML and full-stack development, and 97/100 eYRC Stage 1 score reflect my ability to learn and apply new concepts effectively.</li>
+                <li><strong>I bring execution, not just knowledge:</strong> I apply what I learn through hackathons, mini-projects, competitions, and hands-on development rather than limiting myself to coursework.</li>
+                <li><strong>I can contribute as a team member and a leader:</strong> I know when to take initiative, when to collaborate, and how to stay accountable for getting the work done.</li>
+            </ul>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="portfolio">
+            <h1>My Education</h1>
+            <p>Bachelor of Engineering in Computer Science and Engineering</p>
+            <p>Cambridge Institute of Technology, North Campus</p>
+            <p>Bangalore, India</p>
+            <p>2024-2028 | CGPA 9.20</p>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="portfolio contact">
+            <h2>Contact me</h2>
+            <p>
+                Phone: 9058474617<br>
+                Email: <a href="mailto:gayatriag2006@gmail.com">gayatriag2006@gmail.com</a><br>
+                LinkedIn: <a href="https://linkedin.com/in/gayatri-arvind-gundad-a6a9a4314" target="_blank" rel="noopener">linkedin.com/in/gayatri-arvind-gundad-a6a9a4314</a><br>
+                GitHub: <a href="https://github.com/Gayatri-tech24" target="_blank" rel="noopener">Gayatri-tech24</a>
+            </p>
+        </section>
+
+    </main>
+</body>
+</html>
